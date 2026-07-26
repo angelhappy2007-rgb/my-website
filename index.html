@@ -1,303 +1,168 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="儿童阅读成长书房官网，提供3-14岁阅读课程、领读陪伴、亲子共读和阅读能力提升服务。"
-    />
-    <title>约读书房｜儿童阅读成长中心</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <header class="site-header" id="top">
-      <a class="brand" href="#top" aria-label="约读书房首页">
-        <img class="brand-logo" src="./assets/yuedu-logo.png" alt="约读书房" />
-      </a>
-      <nav class="main-nav" aria-label="主导航">
-        <a href="#courses">课程体系</a>
-        <a href="#method">阅读方法</a>
-        <a href="#space">书房空间</a>
-        <a href="#growth">成长成果</a>
-        <a href="#contact">预约咨询</a>
-      </nav>
-      <a class="nav-action" href="#contact">免费测评</a>
-      <button class="menu-button" id="menuButton" aria-label="打开菜单" aria-expanded="false">☰</button>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="面向教培运营团队的AI短视频商业化实战培训，用AI把一门课程变成持续获客的短视频内容生产系统。">
+  <title>AI短视频商业化实战培训</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回顶部">
+      <span class="brand-mark">AI</span>
+      <span>教培增长实验室</span>
+    </a>
+    <a class="header-cta" href="#register">立即报名</a>
+  </header>
 
-    <main>
-      <section class="hero" aria-label="品牌介绍">
-        <div class="hero-media" role="img" aria-label="温暖明亮的儿童阅读空间"></div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <img class="hero-logo" src="./assets/yuedu-logo.png" alt="约读书房" />
-          <p class="section-kicker">3-14岁儿童阅读成长中心</p>
-          <h1>让孩子在一本本好书里，养成会阅读、会表达、会思考的能力</h1>
-          <p class="hero-copy">
-            以“引导、陪伴、分享”为核心，把阅读课、表达训练、阅读记录和家庭共读连接起来，帮助孩子建立稳定的阅读习惯。
-          </p>
-          <div class="hero-actions">
-            <a class="primary-button" href="#contact">预约阅读测评</a>
-            <a class="ghost-button" href="#courses">查看课程体系</a>
-          </div>
-          <dl class="hero-stats" aria-label="核心数据">
-            <div>
-              <dt>3-14</dt>
-              <dd>年龄覆盖</dd>
-            </div>
-            <div>
-              <dt>4阶</dt>
-              <dd>能力进阶</dd>
-            </div>
-            <div>
-              <dt>1vN</dt>
-              <dd>领读陪伴</dd>
-            </div>
-          </dl>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">AI短视频商业化实战培训</p>
+        <h1>把一门课程<br>变成一套<span>持续获客</span>的<br>短视频系统</h1>
+        <p class="hero-lead">从课程卖点、招生创意到AI成片和私域承接，帮助教培运营团队建立可复制、可执行、可持续的内容生产线。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#register">锁定席位 <span aria-hidden="true">→</span></a>
+          <a class="button button-ghost" href="#outcomes">查看培训成果</a>
         </div>
-        <div class="hero-mascot" aria-label="约读书房吉祥物">
-          <img src="./assets/mascot-panda.jpg" alt="约读书房吉祥物" />
-        </div>
-      </section>
-
-      <section class="section-block" id="courses">
-        <div class="section-inner">
-          <div class="section-heading">
-            <p class="section-kicker">Courses</p>
-            <h2>分龄阅读课程体系</h2>
-            <p>围绕兴趣启蒙、精读理解、表达输出和自主阅读四个阶段，给孩子一条清晰的阅读成长路径。</p>
-          </div>
-
-          <div class="course-grid">
-            <article class="course-card">
-              <span class="card-icon">启</span>
-              <h3>阅读启蒙</h3>
-              <p>适合3-6岁，使用绘本共读、故事复述和游戏化提问，建立阅读兴趣与专注力。</p>
-              <ul>
-                <li>绘本理解</li>
-                <li>词汇积累</li>
-                <li>亲子共读</li>
-              </ul>
-            </article>
-            <article class="course-card featured">
-              <span class="card-icon">读</span>
-              <h3>领读精读</h3>
-              <p>适合6-10岁，通过老师领读、小组讨论和阅读任务单，提升理解、概括与表达。</p>
-              <ul>
-                <li>章节书阅读</li>
-                <li>主题讨论</li>
-                <li>阅读笔记</li>
-              </ul>
-            </article>
-            <article class="course-card">
-              <span class="card-icon">思</span>
-              <h3>思辨表达</h3>
-              <p>适合9-12岁，围绕人物、情节、观点和写作结构，让孩子从读懂走向说清楚。</p>
-              <ul>
-                <li>观点表达</li>
-                <li>文本分析</li>
-                <li>口头汇报</li>
-              </ul>
-            </article>
-            <article class="course-card">
-              <span class="card-icon">写</span>
-              <h3>读写融合</h3>
-              <p>适合10-14岁，把整本书阅读与写作训练结合，形成素材、结构和语言表达能力。</p>
-              <ul>
-                <li>整本书项目</li>
-                <li>写作素材库</li>
-                <li>作品打磨</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="method-section" id="method">
-        <div class="section-inner method-grid">
-          <div class="method-copy">
-            <p class="section-kicker">Method</p>
-            <h2>不是把书读完，而是把阅读能力养出来</h2>
-            <p>
-              课程以领读老师为核心，把课前兴趣激发、课中问题引导、课后表达输出串联起来。孩子每次阅读都有目标、有反馈、有可见成长。
-            </p>
-            <div class="method-list">
-              <div>
-                <strong>引导</strong>
-                <span>用问题打开文本，让孩子主动观察人物、情节和观点。</span>
-              </div>
-              <div>
-                <strong>陪伴</strong>
-                <span>用稳定节奏陪孩子读完整本书，减少半途而废。</span>
-              </div>
-              <div>
-                <strong>分享</strong>
-                <span>用讨论、复述、演讲和写作，把输入变成输出。</span>
-              </div>
-            </div>
-          </div>
-          <div class="process-panel" aria-label="教学流程">
-            <div class="process-step">
-              <span>01</span>
-              <strong>阅读测评</strong>
-              <p>了解孩子兴趣、识字量、理解力和表达状态。</p>
-            </div>
-            <div class="process-step">
-              <span>02</span>
-              <strong>定制书单</strong>
-              <p>匹配年龄、能力和主题兴趣，避免过难或过浅。</p>
-            </div>
-            <div class="process-step">
-              <span>03</span>
-              <strong>课堂领读</strong>
-              <p>老师引导阅读，小组互动讨论，沉淀阅读任务。</p>
-            </div>
-            <div class="process-step">
-              <span>04</span>
-              <strong>成长反馈</strong>
-              <p>定期输出阅读报告，给家长可执行的陪伴建议。</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-block space-section" id="space">
-        <div class="section-inner">
-          <div class="section-heading compact">
-            <p class="section-kicker">Space & Activities</p>
-            <h2>像书房一样安静，也像课堂一样有方向</h2>
-          </div>
-          <div class="space-grid">
-            <article class="space-card large">
-              <img
-                src="./assets/photos/space-immersive.jpg"
-                alt="老师陪伴孩子阅读"
-              />
-              <div>
-                <h3>沉浸式阅读空间</h3>
-                <p>开放书架、分龄书单和小组阅读桌，帮助孩子自然进入阅读状态。</p>
-              </div>
-            </article>
-            <article class="space-card">
-              <img
-                src="./assets/photos/space-club.jpg"
-                alt="学生围坐阅读图书"
-              />
-              <div>
-                <h3>主题读书会</h3>
-                <p>围绕人物、自然、历史、科普等主题，让孩子在分享中建立连接。</p>
-              </div>
-            </article>
-            <article class="space-card">
-              <img
-                src="./assets/photos/space-showcase.jpg"
-                alt="孩子在书架前阅读"
-              />
-              <div>
-                <h3>表达展示</h3>
-                <p>用演讲、辩论、故事会和作品展，让阅读成果被看见。</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="growth-section" id="growth">
-        <div class="section-inner growth-grid">
-          <div>
-            <p class="section-kicker">Growth</p>
-            <h2>家长能看见的成长，不只是一张课表</h2>
-            <p>
-              每个孩子都有阅读档案，记录读过的书、课堂表现、表达作品和阶段建议，让家长知道下一步该怎么陪。
-            </p>
-          </div>
-          <div class="growth-cards">
-            <article>
-              <strong>阅读量</strong>
-              <span>分龄书单与整本书阅读记录</span>
-            </article>
-            <article>
-              <strong>理解力</strong>
-              <span>问题回答、文本分析和主题概括</span>
-            </article>
-            <article>
-              <strong>表达力</strong>
-              <span>复述、分享、演讲和写作作品</span>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="contact-section" id="contact">
-        <div class="section-inner contact-grid">
-          <div class="contact-copy">
-            <p class="section-kicker">Contact</p>
-            <h2>预约一次阅读能力测评</h2>
-            <p>留下孩子年龄和当前阅读情况，我们会给出课程建议、书单方向和适合的体验课安排。</p>
-            <div class="mascot-note">
-              <img src="./assets/mascot-panda.jpg" alt="约读书房吉祥物" />
-              <span>约读书房陪孩子从喜欢听故事，慢慢走向独立阅读和主动表达。</span>
-            </div>
-            <div class="contact-note">
-              <strong>咨询内容</strong>
-              <span>阅读兴趣 · 识字量 · 理解力 · 表达力 · 家庭共读建议</span>
-            </div>
-            <div class="contact-note">
-              <strong>联系老师</strong>
-              <span>周老师 · 18006448839</span>
-            </div>
-          </div>
-
-          <form class="lead-form" id="leadForm">
-            <label>
-              家长称呼
-              <input name="name" type="text" placeholder="例如：王女士" required />
-            </label>
-            <label>
-              联系方式
-              <input name="phone" type="tel" placeholder="手机号 / 微信号" required />
-            </label>
-            <label>
-              孩子年龄
-              <select name="age" required>
-                <option value="">请选择</option>
-                <option>3-6岁</option>
-                <option>6-9岁</option>
-                <option>9-12岁</option>
-                <option>12-14岁</option>
-              </select>
-            </label>
-            <label>
-              当前情况
-              <textarea name="message" rows="4" placeholder="例如：孩子喜欢听故事，但不太愿意独立阅读"></textarea>
-            </label>
-            <button class="primary-button form-button" type="submit">提交预约</button>
-            <p class="form-status" id="formStatus" role="status"></p>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="section-inner footer-grid">
-        <div class="footer-brand">
-          <img src="./assets/yuedu-logo.png" alt="约读书房" />
-          <strong>约读书房</strong>
-          <p>专注儿童阅读兴趣、阅读理解和表达能力培养。</p>
-        </div>
-        <div>
-          <span>地址</span>
-          <p>请替换为你的真实校区地址</p>
-        </div>
-        <div>
-          <span>电话</span>
-          <p>周老师：18006448839</p>
-        </div>
+        <ul class="hero-proof" aria-label="课程特点">
+          <li><strong>2天</strong><span>跑通完整流程</span></li>
+          <li><strong>100+</strong><span>招生创意方向</span></li>
+          <li><strong>1套</strong><span>团队执行SOP</span></li>
+        </ul>
       </div>
-    </footer>
+      <div class="hero-visual" aria-label="AI短视频内容生产系统流程图">
+        <img class="visual-texture" src="assets/hero-title.jpg" alt="AI短视频课程内容背景">
+        <div class="engine-label"><span></span>AI CONTENT ENGINE</div>
+        <div class="engine-core">
+          <p>一门课程</p>
+          <strong>持续获客</strong>
+          <small>内容生产系统</small>
+        </div>
+        <div class="engine-flow" aria-label="内容生产流程">
+          <div><span>01</span><strong>课程卖点</strong></div>
+          <i aria-hidden="true">→</i>
+          <div><span>02</span><strong>招生创意</strong></div>
+          <i aria-hidden="true">→</i>
+          <div><span>03</span><strong>AI成片</strong></div>
+          <i aria-hidden="true">→</i>
+          <div><span>04</span><strong>精准线索</strong></div>
+        </div>
+        <div class="visual-note"><span>培训现场交付</span><strong>从创意到成片</strong></div>
+      </div>
+    </section>
 
-    <a class="floating-consult" href="#contact">预约</a>
-    <script src="./app.js"></script>
-  </body>
+    <section class="problem-band">
+      <p>你的团队是否还在</p>
+      <div class="problem-list">
+        <span>等老师出镜</span><span>每天憋选题</span><span>反复拍摄剪辑</span><span>播放有了却没线索</span>
+      </div>
+    </section>
+
+    <section class="section system-section">
+      <div class="section-heading">
+        <p class="eyebrow">从单条内容到获客系统</p>
+        <h2>这次培训，解决的不是“会不会用AI”</h2>
+        <p>而是帮助团队建立一条从课程产品到招生线索的标准化生产链。</p>
+      </div>
+      <div class="system-flow">
+        <article><span>01</span><h3>提炼卖点</h3><p>把课程价值转化为用户听得懂、愿意停留的内容表达。</p></article>
+        <article><span>02</span><h3>批量创意</h3><p>围绕一个课程持续生成选题、钩子与招生内容母体。</p></article>
+        <article><span>03</span><h3>AI生产</h3><p>完成脚本、人物、场景、分镜和短视频成片。</p></article>
+        <article><span>04</span><h3>矩阵分发</h3><p>适配不同老师、课程、校区与平台进行持续发布。</p></article>
+        <article><span>05</span><h3>私域成交</h3><p>让每条内容指向试听、咨询与正价课程转化。</p></article>
+      </div>
+    </section>
+
+    <section class="section outcomes" id="outcomes">
+      <div class="section-heading align-left">
+        <p class="eyebrow">培训结束直接带走</p>
+        <h2>不是听懂，而是现场做出来</h2>
+      </div>
+      <div class="outcome-grid">
+        <article class="outcome-feature">
+          <p class="outcome-index">01 / 核心成果</p>
+          <h3>一套AI短视频获客工作流</h3>
+          <p>将创意、脚本、分镜、素材、生成、发布和转化串成一套团队能够反复执行的流程。</p>
+        </article>
+        <article><span class="check">✓</span><h3>一批招生内容</h3><p>围绕你的真实课程现场生产，培训结束即可继续修改和发布。</p></article>
+        <article><span class="check">✓</span><h3>一套执行SOP</h3><p>明确每个岗位做什么、用什么提示词、按照什么标准验收。</p></article>
+        <article><span class="check">✓</span><h3>一个复制模型</h3><p>可迁移到不同老师、课程、账号和校区，持续放大内容产能。</p></article>
+      </div>
+    </section>
+
+    <section class="audience-section">
+      <div>
+        <p class="eyebrow">适合参加</p>
+        <h2>正在为教培业务寻找<br>新增长方式的团队</h2>
+      </div>
+      <ul>
+        <li><span>01</span>教培运营公司与代运营团队</li>
+        <li><span>02</span>教育机构与知识付费团队</li>
+        <li><span>03</span>课程操盘手与招生负责人</li>
+        <li><span>04</span>短视频运营与内容负责人</li>
+      </ul>
+    </section>
+
+    <section class="register-section" id="register">
+      <div class="register-copy">
+        <p class="eyebrow">限额招募</p>
+        <h2>让课程内容，从成本<br>变成持续增长的资产</h2>
+        <p>提交信息后，复制报名资料并发送给课程顾问，我们将与你确认培训安排和席位。</p>
+        <dl class="event-meta">
+          <div><dt>培训时间</dt><dd data-config="date">待公布</dd></div>
+          <div><dt>培训地点</dt><dd data-config="location">待公布</dd></div>
+          <div><dt>课程形式</dt><dd>线下实战 · 小班交付</dd></div>
+        </dl>
+      </div>
+
+      <form class="register-form" id="registerForm">
+        <div class="form-title">
+          <span>报名申请</span>
+          <small>预计用时 1 分钟</small>
+        </div>
+        <label>姓名<input name="name" required autocomplete="name" placeholder="请输入您的姓名"></label>
+        <label>手机号码<input name="phone" required inputmode="tel" autocomplete="tel" pattern="1[3-9][0-9]{9}" placeholder="请输入11位手机号"></label>
+        <label>公司 / 机构<input name="company" required autocomplete="organization" placeholder="请输入公司或机构名称"></label>
+        <label>您的岗位
+          <select name="role" required>
+            <option value="">请选择</option>
+            <option>公司负责人</option><option>课程操盘手</option><option>招生负责人</option>
+            <option>短视频运营</option><option>讲师 / 教师</option><option>其他</option>
+          </select>
+        </label>
+        <label>目前最想解决的问题
+          <select name="challenge" required>
+            <option value="">请选择</option>
+            <option>内容产能不足</option><option>缺少稳定选题</option><option>制作成本过高</option>
+            <option>短视频没有线索</option><option>缺少团队执行流程</option>
+          </select>
+        </label>
+        <label class="consent"><input type="checkbox" required><span>我同意课程顾问通过电话或微信联系我</span></label>
+        <button class="button button-primary submit-button" type="submit">提交报名申请 <span aria-hidden="true">→</span></button>
+        <p class="form-note">你的信息仅用于本次课程咨询与报名确认。</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <span>AI教培增长实验室</span>
+    <p>让每一门好课程，都拥有持续被看见的能力。</p>
+  </footer>
+
+  <a class="mobile-cta" href="#register">立即报名</a>
+
+  <dialog id="successDialog">
+    <button class="dialog-close" type="button" aria-label="关闭">×</button>
+    <p class="eyebrow">报名信息已生成</p>
+    <h2>最后一步，发送给课程顾问</h2>
+    <p>点击下方按钮复制报名信息，再通过微信发送给课程顾问 <strong data-config="wechat">待填写</strong>。</p>
+    <textarea id="signupSummary" readonly aria-label="报名信息"></textarea>
+    <button class="button button-primary" id="copySignup" type="button">复制报名信息</button>
+    <p class="copy-status" id="copyStatus" role="status"></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
 </html>
